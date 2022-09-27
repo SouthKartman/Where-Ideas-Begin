@@ -498,7 +498,7 @@ function get_cookie (cookie_name) {
 
 <!-- Окончательный вариант теста -->
 
-        <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+        <!-- <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe> Здесь нет теста) -->
         <a href="lesson4html.php" class="buttonnns"  >Далее</a>
 </div> 
 </div>
