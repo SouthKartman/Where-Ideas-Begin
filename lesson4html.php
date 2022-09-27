@@ -468,7 +468,7 @@ function get_cookie (cookie_name) {
   
 
    
-   <p class="ZagWidget">Тест по первой теме HTML</p> 
+   <!-- <p class="ZagWidget">Тест по первой теме HTML</p>  здесь тоже нет теста -->
 
   
 <!-- Тест с сайта learningapps -->
@@ -478,7 +478,7 @@ function get_cookie (cookie_name) {
 
 <!-- Окончательный вариант теста -->
 
-        <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+        <!-- <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe> здесь тоже нет теста -->
         <a href="lesson5html.php" class="buttonnns"  >Далее</a>
 </div> 
 </div>
