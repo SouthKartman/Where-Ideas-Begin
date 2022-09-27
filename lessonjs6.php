@@ -471,17 +471,17 @@
       </div>
                   
     
-                <div class="Onlineblock">
+                <!-- <div class="Onlineblock"> -->
     
-    <div class="First">
-      <div class="anim-show">
+    <!-- <div class="First"> -->
+      <!-- <div class="anim-show"> -->
     
     
     
       
     
        
-       <p class="ZagWidget">Тест по первой теме HTML</p> 
+       <!-- <p class="ZagWidget">Тест по первой теме HTML</p>  -->
     
       
     <!-- Тест с сайта learningapps -->
@@ -493,15 +493,15 @@
     
             <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
             <!-- <a href="lesson2html.php" class="buttonnns"  >Далее</a> -->
-    </div> 
-    </div>
+    <!-- </div>  -->
+    <!-- </div> -->
     
     
     
     
     
     
-    </div>
+    <!-- </div> -->
                 
     
                 
