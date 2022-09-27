@@ -488,7 +488,7 @@ function get_cookie (cookie_name) {
   
 
    
-   <p class="ZagWidget">Тест по первой теме HTML</p> 
+   <!-- <p class="ZagWidget">Тест по первой теме HTML</p>  Здесь нет теста) -->
 
   
 <!-- Тест с сайта learningapps -->
