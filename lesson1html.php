@@ -483,14 +483,10 @@ sub.../sub  Подстрочный текст;  br  Переход на нову
 <div class="nameredacktor">
       <div class="leftname"></div>
           <div class="textredactor">
-           <p> Сегодня мы познакомимся с HTML</p>
+           <p> Задания по теме:Знакомство с HTML</p>
           </div>
       <div class="rightname"></div>
 </div>
-
-
-
-
 
 
 <div class="content1">
@@ -500,9 +496,13 @@ sub.../sub  Подстрочный текст;  br  Переход на нову
 </div>
 
 
+
+
+
+
 </div>
 <!-- <a href="#" class="btn-more" id="link_Id" >Далее</a> -->
-<
+
 
 </div>
 

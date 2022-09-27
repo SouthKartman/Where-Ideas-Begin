@@ -4,7 +4,7 @@
 	box-sizing: border-box;
 }
 :root {
-	--black: #000000;
+	--black: #ffffff;
 	--index: calc(1vw + 1vh);
 	--transition: 1.25s cubic-bezier(.2, .5, 0, 1);
 	--transition-cursor: 2s cubic-bezier(.05, .5, 0, 1);
@@ -14,7 +14,7 @@
 	src: url(../fonts/arsenal-regular.woff2);
 }
 body {
-	background-color: beige;
+	background-color: rgb(35, 35, 35);
 }
 .magic-list {
 	font-family: arsenal_f, sans-serif;
@@ -86,3 +86,7 @@ body {
 .magic-list__item:hover .cursor__image {
 	transform: var(--cursor-transform) scale(1);
 }
+/*Убрать полосу прокрутки для всей страницы*/
+::-webkit-scrollbar {
+	width: 0;
+  }
