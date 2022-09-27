@@ -148,10 +148,10 @@ const questions =
 		
 	]),
 
-	new Question("Видны ли комментарии пользователю? ", 
+	new Question("Какое свойство делает рамку вокруг элемента? ", 
 	[
-		new Answer("Да", 0),
-		new Answer("Нет", 1),
+		new Answer("background", 0),
+		new Answer("Border", 1),
 		
 	]),
 
@@ -167,6 +167,46 @@ const questions =
 		new Answer("*", 1),
 		new Answer("id", 0),
 		new Answer("class", 0),
+		
+	]),
+
+	new Question("За что отвечают свойства width и height? ", 
+	[
+		new Answer("Высота и ширина элемента", 1),
+		new Answer("Рамка вокруг элемента", 0),
+		new Answer("Цвет элемента", 0),
+		
+	]),
+
+	new Question("За что отвечают свойство color? ", 
+	[
+		new Answer("Высота и ширина элемента", 0),
+		new Answer("Рамка вокруг элемента", 0),
+		new Answer("Цвет текста", 1),
+		
+	]),
+
+	new Question("За что отвечают свойство font? ", 
+	[
+		new Answer("Шрифт текста", 1),
+		new Answer("Рамка вокруг элемента", 0),
+		new Answer("Цвет текста", 0),
+		
+	]),
+
+	new Question("За что отвечают свойство padding? ", 
+	[
+		new Answer("Внутренние отступы ", 1),
+		new Answer("Внешние отступы", 0),
+		
+		
+	]),
+
+	new Question("За что отвечают свойство margin? ", 
+	[
+		new Answer("Внутренние отступы ", 0),
+		new Answer("Внешние отступы", 1),
+		
 		
 	]),
 
