@@ -170,6 +170,46 @@ const questions =
 		
 	]),
 
+	new Question("Что означает тег head? ", 
+	[
+		new Answer("Заголовок html документа", 1),
+		new Answer("Переход на новую строку", 0),
+		new Answer("Полужирный текст", 0),
+		
+	]),
+
+	new Question("Для чего используют тег h1? ", 
+	[
+		new Answer("Переход на новую строку", 0),
+		new Answer("Для заголовка", 1),
+		new Answer("Курсив", 0),
+		
+	]),
+
+	new Question("Для чего используют тег p? ", 
+	[
+		new Answer("Переход на новую строку", 0),
+		new Answer("Абзац", 1),
+		new Answer("Курсив", 0),
+		
+	]),
+
+	new Question("Для чего используют тег br? ", 
+	[
+		new Answer("Курсив", 0),
+		new Answer("Переход на новую строку", 1),
+		new Answer("Полужирный текст", 0),
+		
+	]),
+
+    new Question("Какой тег используется для создания блока? ", 
+	[
+		new Answer("div", 1),
+		new Answer("p", 0),
+		new Answer("br", 0),
+		
+	]),
+
 	new Question("Укажите парные теги? ", 
 	[
 		new Answer("br", 0),
