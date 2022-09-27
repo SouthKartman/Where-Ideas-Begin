@@ -1366,6 +1366,7 @@ font-style:unset;
   text-align: center;
    padding-top: 2rem; 
    justify-content: center;
+   width: 100%;
 }
 
 
@@ -1669,6 +1670,7 @@ padding-bottom: 2rem;
   text-align: center;
   /* background: linear-gradient(to right, #171616, #555555);;  */
   background: rgb(44, 41, 41);;
+  justify-content: center;
  
   
 }
@@ -2123,3 +2125,25 @@ margin-top: 1px;
     color: ;
     background-color:#595959 ;
   }
+  .content1
+
+{
+  /* background-color: #292929; */
+  /* width: 90%; */
+  height: auto;
+  display: block;
+  padding-top: 1rem;
+  justify-content: center;
+  text-align: center;
+color: rgb(225, 225, 225);
+background: linear-gradient(45deg, #181818, #404040);
+border-radius: 10px;
+margin: 3rem;
+display: none;
+font-family: Sans-serif,'Courier New', Courier, monospace;
+padding-bottom: 1rem;
+}
+#wrap
+{
+  background-color: ;
+}
