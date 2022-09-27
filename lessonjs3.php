@@ -1,0 +1,563 @@
+<?php
+    //Подключение шапки
+    require_once("headerND.php");
+?>
+
+    
+    <div id="scroll-top">
+  <button><span data-hover="Наверх"></span></button>
+</div>
+ 
+<div class ="Mainhead" id="element">
+
+    <div class="hamburger-menu">
+    <input id="menu__toggle" type="checkbox" />
+    <label class="menu__btn" for="menu__toggle">
+        <span></span>
+    </label>
+    
+    <!-- <ul class="menu__box">
+        <li><a target="_blank" class="menu__item" href="index.php">Главная</a></li>
+        <li><a target="_blank" class="menu__item" href="https://github.com/">GitHub</a></li>
+        <li><a target="_blank" class="menu__item" href="kod.php">Редакторы кода</a></li>
+      
+        <li><a target="_blank" class="menu__item" href="https://www.aktt.org/">Сайт Техникума</a></li>
+        <li><a target="_blank" class="menu__item" href="ourteams.php">Наша Команда</a></li>
+        
+        <br><br><br><br><br> <iframe frameborder="0" style="border:none;width:295px;height:80px;" width="320" height="450" src="https://music.yandex.ru/iframe/#playlist/yamusic-daily/152599575">Слушайте <a href='https://music.yandex.ru/users/yamusic-daily/playlists/152599575'>Плейлист дня</a> — <a href='https://music.yandex.ru/users/yamusic-daily'>yamusic-daily</a> на Яндекс.Музыке</iframe> -->
+       <!--  <br><br><br><br><br><iframe class="test" src="https://open.spotify.com/embed/playlist/37i9dQZF1E3aiW7d90Hxx2?utm_source=generator" width="295" height="80" widht-left= frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe>
+       <script>
+       const onPlay = () => {
+           console.log('onplay')
+           const audio = new Audio('https://www.youtube.com/watch?v=S4lZHCgefMI&list=RDS4lZHCgefMI&start_radio=1');
+           audio.play();
+       }
+       </script> -->
+    <!-- </ul>  -->
+    
+    
+            <ul class="menu__box">
+                <br>
+                
+        <li><a target="_blank" class="menu__item" href="index.php">Главная</a></li>
+        <li><a target="_blank" class="menu__item" href="https://github.com/">GitHub</a></li>
+        <li><a target="_blank" class="menu__item" href="kod.php">Редакторы кода</a></li>
+        <li><a target="_blank" class="menu__item" href="Tutorials.php">Курсы </a></li>
+        <li><a target="_blank" class="menu__item" href="valut.php">Криптовалюта</a></li>
+        <li><a target="_blank" class="menu__item" href="https://www.aktt.org/">Сайт Техникума</a></li>
+        <li><a target="_blank" class="menu__item" href="ourteams.php">Наша Команда</a></li>
+        
+        <br><br><br><br><br> <iframe frameborder="0" style="border:none;width:295px;height:80px;" width="320" height="450" src="https://music.yandex.ru/iframe/#playlist/yamusic-daily/152599575">Слушайте <a href='https://music.yandex.ru/users/yamusic-daily/playlists/152599575'>Плейлист дня</a> — <a href='https://music.yandex.ru/users/yamusic-daily'>yamusic-daily</a> на Яндекс.Музыке</iframe>
+       <!--  <br><br><br><br><br><iframe class="test" src="https://open.spotify.com/embed/playlist/37i9dQZF1E3aiW7d90Hxx2?utm_source=generator" width="295" height="80" widht-left= frameborder="0" allowtransparency="true" allow="encrypted-media" ></iframe>
+       <script>
+       const onPlay = () => {
+           console.log('onplay')
+           const audio = new Audio('https://www.youtube.com/watch?v=S4lZHCgefMI&list=RDS4lZHCgefMI&start_radio=1');
+           audio.play();
+       }
+       </script> -->
+    </ul>
+    
+    </div>
+    
+    <div class= "logo">
+        <h1 id="header1">WHERE <span id="word">IDEAS.<span id="word"></span> BEGIN</span></h1>
+        <script>
+            (function () {
+            let replacementSpan = document.createElement("span");
+            
+            const header = document.getElementById("header1");
+            const word = document.getElementById("word");
+            
+            const charactersArr = word.innerText.split("");
+            const replacementSpansArr = charactersArr.map((ltr, indx) => {
+                let newSpan = document.createElement("span");
+                newSpan.innerText = ltr;
+                newSpan.style.setProperty("--i", indx);
+                newSpan.classList.add("ltr");
+                return newSpan;
+            });
+            // Terrible procedural code because I can't get Array.reduce to play happliy with Nodes ...
+            replacementSpansArr.forEach((spn) => replacementSpan.appendChild(spn));
+            header.append(replacementSpan);
+            word.remove();
+            })();
+        </script>
+    </div>
+    
+    <!-- <div id="auth_block"> -->
+    <section>
+    
+    
+    <ol class="progress-bar">
+    <li class="is-complete"><span>JavaScript</span></li>  
+    <li class="is-complete"><span>Подключение JS</span></li>  
+    <li class="is-active"><span>Переменные</span></li>
+    <li><span>JQuery</span></li>  
+    <li><span>Тест на JS</span></li>
+    <li><span>Скрипт блоков</span></li>
+    <!-- <li><span>Launch Date</span></li>  
+    <li><span>Step</span></li>
+    <li><span>Step</span></li>
+    <li><span>Agreement</span></li>   -->
+    </ol>
+    </section>
+            <div class="link">
+            
+        <!-- <div class="row">
+            <div class="textone"> <a  href="form_auth.php" class="btn btn-sm animated-button thar-one">Вход</a> </div>
+            <div class="textone"> <a  href="form_register.php" class="btn btn-sm animated-button thar-three">Регистрация</a> </div>
+          </div> -->
+    </div>
+    
+    <div class="clear"></div>
+    
+    
+    </div>	
+    
+    
+    
+    
+    <nav>
+              <input type="checkbox" id="menu" name="menu" class="m-menu__checkbox">
+              <label class="m-menu__toggle" for="menu">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+              </label>
+              <label class="m-menu__overlay" for="menu"></label>
+              
+              <div class="m-menu">
+              <br><br><br>
+                <div class="m-menu__header">
+                  <label class="m-menu__toggle" for="menu">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EFEFEF" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs">
+                      <line x1="18" y1="6" x2="6" y2="18"></line>
+                      <line x1="6" y1="6" x2="18" y2="18"></line>
+                    </svg>
+                  </label>
+                  
+                  <span>Курс по JavaScript</span>
+                </div>
+                <ul>
+                  <li><label><a href="lessonjs1.php">Знакомство с JavaScript</a></label></li>
+                  <li>
+                    <label><a href="lessonjs2.php">Подключение JS</a></label>
+                    <!-- <input type="checkbox" id="item-2" name="item-2" class="m-menu__checkbox">
+                    <div class="m-menu">
+                      <div class="m-menu__header">
+                        <label class="m-menu__toggle" for="item-2">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EFEFEF" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs" color="white">
+                            <path d="M19 12H6M12 5l-7 7 7 7"/>
+                          </svg>
+                        </label>
+                        <span>Item 2</span>
+                      </div>
+                      <ul>
+                        <li><label>Item 2.1</label></li>
+                        <li><label>Item 2.2</label></li>
+                        <li>
+                          <label class="a-label__chevron" for="item-2-3">Item 2.3</label>
+                          <input type="checkbox" id="item-2-3" name="item-2" class="m-menu__checkbox">
+                          <div class="m-menu">
+                            <div class="m-menu__header">
+                              <label class="m-menu__toggle" for="item-2-3">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#EFEFEF" stroke-width="2" stroke-linecap="butt" stroke-linejoin="arcs">
+                                  <path d="M19 12H6M12 5l-7 7 7 7"/>
+                                </svg>
+                              </label>
+                              <span>Item 2.3 </span>
+                            </div>
+                            <ul>
+                              <li><label>Item 2.3.1</label></li>
+                              <li><label>Item 2.3.2</label></li>
+                              <li><label>Item 2.3.3</label></li>
+                              <li><label>Item 2.3.4</label></li>
+                              <li><label>Item 2.3.5</label></li>
+                            </ul>                
+                        </li>
+                        <li><label>Item 2.4</label></li>
+                        <li><label>Item 2.5</label></li>
+                        <li><label>Item 2.6</label></li>
+                        <li><label>Item 2.7</label></li>
+                        <li><label>Item 2.8</label></li>
+                        <li><label>Item 2.9</label></li>
+                    </div>
+                  </li> -->
+                  <li><label><a href="lessonjs3.php">Переменные и типы данных</a></label></li>
+                  <li><label><a href="lessonjs4.php">Что такое JQuery</a></label></li>
+                  <li><label><a href="lessonjs5.php">Создание Теста</a></label></li>
+                  <li><label><a href="lessonjs6.php">Появление блоков при скролле</a></label></li>
+                </ul>  
+              </div>
+            </nav>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    <div class ="pace">
+                
+                </div>
+                <div class="dophead">
+                <img src="img/black-and-white-gradient-background.jpg" alt="">
+                
+                </div>
+                
+                <div class="container_slider_css">
+                    <img class="photo_slider_css" src="img/1625703037_2-kartinkin-com-p-oboi-programmista-krasivie-3 (1).png" alt="">
+                    <img class="photo_slider_css" src="img/homepage11-e1507323531955.jpg" alt="">
+                    <img class="photo_slider_css" src="img/AdobeStock_314348719-scaled-1.jpeg.jpg" alt="">
+                    <img class="photo_slider_css" src="img/b_5dc951124ee9c.jpg" alt="">
+                  </div>
+                  
+                 <!-- Скрытый блок (скрипт) -->
+            
+            <script>
+                function first() 
+                {
+                document.getElementById("second_hide").setAttribute("style", "opacity:1; transition: 1s; height: 100%;");
+                document.getElementById("first").setAttribute("style", "display: none");
+                document.getElementById("first_yelloy").setAttribute("style", "display: block");
+                }
+                function first_yelloy() 
+                {
+                document.getElementById("second_hide").setAttribute("style", "display: none");
+                document.getElementById("first_yelloy").setAttribute("style", "display: none");
+                document.getElementById("first").setAttribute("style", "display: block");
+                }  
+            </script>
+            
+            <div>
+              
+            <p id="first" onclick="first()">Не знаешь что такое GitHub?  Тогда нажми на меня </p>
+            
+            <p id="first_yelloy"; style="display:none" onclick="first_yelloy()">Скрыть блок </p>
+            <div class="anim-show">
+            <div id="second_hide" style="display:none">
+            
+            <div class="anim-show">
+                    <p>GitHub...</p> <br>
+                    
+                    Крупнейший веб-сервис для хостинга IT-проектов и их совместной разработки. Веб-сервис основан на системе контроля версий Git <br> и разработан на Ruby on Rails и Erlang компанией GitHub, Inc.<br><br>
+            
+            Проект Hello World - это давняя традиция в программировании. <br>Это простое упражнение, которое позволит познакомиться с основами работы в системе контроля версий Git. Давайте начнем же! <BR>
+            <br>Вы узнаете, как:
+            <ul><li>Создать новый репозиторий и управлять им</li><li>Внесьте изменения в файл и зафиксировать изменения на GitHub</li><li>Начать новую ветку и управлять ей</li><li>Сделать запрос на извлечение с GitHub и слить результаты запроса с локальными файлами</li></ul>
+            
+            <iframe width="350rem" height="200rem" src="https://www.youtube.com/embed/JfpCicDUMKc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              
+                    </div>
+                  </div>
+            </div>
+            
+            </div>
+                <div class="nameredacktor">
+                  <div class="leftname"></div>
+                <div class="textredactor">
+                 <p> Курсы по HTML и CSS:</p>
+                </div>
+                <div class="rightname"></div>
+                </div>
+                
+                <div class="mainredaktor">
+                <section class="about">
+            <video class="video"  loop="loop" autoplay="" muted="">
+                <source src="media/Untitled.mp4" type="video/mp4" />
+                <!-- <source src="https://denis-creative.com/wp-content/uploads/2018/01/video.ogv" type="video/ogv" />
+                <source src="https://denis-creative.com/wp-content/uploads/2018/01/video.webm" type="video/webm" /> -->
+              </video>
+            <div class="about-header">
+              <!-- <img src="https://denis-creative.com/wp-content/uploads/2018/01/about-header-bg-2.png" class="about-header-bg-2" alt=""> -->
+            </div>
+            
+            <div class="about-title"><br><br>HTML (от англ. HyperText Markup Language — «язык гипертекстовой разметки») — стандартизированный язык разметки документов для просмотра веб-страниц в браузере.
+            <br><br>CSS ( англ. Cascading Style Sheets «каскадные таблицы стилей») — формальный язык описания внешнего вида документа (веб-страницы), написанного с использованием языка разметки HTML.
+            <br><br><br><br>
+          </div>
+            <div class="about-footer"></div>
+          </section>
+          
+                  </div>
+            </div>
+            
+            
+                    <!-- <div class="eone">
+                      <div class="anim-show">
+                        <img class="c"  src="images/images for LP/JAVA/1 урок/2.jpg" target="_blank" width="100%" height="100%" alt=""></a>
+                      </div>
+                    </div> -->
+                    <!-- <div class="eone">
+                      <div class="anim-show">
+                        <img class="c" src="img/yO7h10O4tRc.jpg" target="_blank" width="100%" height="100%" alt=""></a>
+                      </div> -->
+                    <!-- </div>
+                  </div>
+                </div> -->
+    
+    
+    <!-- <div class="dialog">
+      
+    
+    
+    
+    
+    
+    
+    </div>
+    <style>
+    .dialog
+    {
+        background-color: white;
+        display: block;
+        text-align: center;
+        flex: box;
+        flex-wrap: center;
+        height: 100px;
+        width: 1000px;
+    
+    }
+    
+    </style> -->
+    
+    
+    
+    
+    
+    
+    <!-- Появление блоков по кнопке -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script>
+      jQuery(function() {
+      var c = $(".content").size();
+      x = 1;
+      $('.content:lt(' + x + ')').fadeIn();
+      $('.buttonns').click(function(e) {
+        e.preventDefault();
+        x = (x + 6 <= c) ? x + 6: c;
+        $('.content:lt(' + x + ')').show();
+      });
+    });
+    </script>
+    <!-- Удаление кнопки -->
+    <script>
+    $(document).ready(function() {
+      var x = get_cookie ( "link_Id_click" );
+      if (x == "true") {
+      document.getElementById('link_Id').style.display = 'none';
+      }
+      $("#link_Id").click(function() {
+         this.style.display='none';
+         document.cookie = "link_Id_click=true; expires=Mon, 01-Jan-2018 00:00:00 GMT";
+      });
+    });
+     
+    function get_cookie (cookie_name) {
+      var results = document.cookie.match ( '(^|;) ?' + cookie_name + '=([^;]*)(;|$)' );
+      if (results)
+        return (unescape (results[4] ));
+      else
+        return null;
+    }
+    </script>
+    
+    
+    <div class="readblocktext">
+    
+      <div class="left"></div>
+      <div class="read">
+      
+      <div class="wrapper">
+      <div class="nameredacktor">
+                  <div class="leftname"></div>
+                <div class="textredactor">
+                 <p> Сегодня мы познакомимся с JS</p>
+                </div>
+                <div class="rightname"></div>
+                </div>
+                
+      <div class="content">
+         <div class="anim-show">
+          <div class="opred"><p>JavaScript-приложению обычно нужно работать с информацией. Например: <br>
+
+            Интернет-магазин – информация может включать продаваемые товары и корзину покупок.<br>
+            Чат – информация может включать пользователей, сообщения и многое другое.<br>
+            Переменные используются для хранения этой информации.</p></div>
+    <br> <br> <div class="noopred">Переменная – это «именованное хранилище» для данных. Мы можем использовать переменные для хранения товаров, посетителей и других данных.
+
+      Для создания переменной в JavaScript используйте ключевое слово let.
+      Мы легко поймём концепцию «переменной», если представим её в виде «коробки» для данных с уникальным названием на ней.
+
+      Например, переменную message можно представить как коробку с названием "message" и значением "Hello!" внутри.
+      Мы можем положить любое значение в коробку.
+
+      Мы также можем изменить его столько раз, сколько захотим:</p></div>
+     <div class="imageblock">
+        <img src="imagejs/2.jpg" width="100%" alt="lklklk">
+        </div>
+    </div> 
+    </div>
+    
+    <a href="#" class="buttonns" id="link_Id" >Читать дальше</a>
+      
+    
+      <div class="content">
+         <div class="anim-show">
+         <div class="noopred">
+          Примечательно, что существуют функциональные языки программирования, такие как Scala или Erlang, которые запрещают изменять значение переменной.
+
+В таких языках однажды сохранённое «в коробку» значение остаётся там навсегда. Если нам нужно сохранить что-то другое, язык заставляет нас создать новую коробку (объявить новую переменную). Мы не можем использовать старую переменную.
+
+Хотя на первый взгляд это может показаться немного странным, эти языки вполне подходят для серьёзной разработки. Более того, есть такая область, как параллельные вычисления, где это ограничение даёт определённые преимущества.
+ Изучение такого языка (даже если вы не планируете использовать его в ближайшее время) рекомендуется для расширения кругозора. <br>
+
+ В JavaScript есть два ограничения, касающиеся имён переменных:
+
+ Имя переменной должно содержать только буквы, цифры или символы $ и _.<br>
+ Первый символ не должен быть цифрой.<br>
+
+    </div>
+     
+    </div>
+    
+      
+    </div>
+    <!-- <a href="#" class="btn-more" id="link_Id" >Далее</a> -->
+    <div class="content">
+      <div class="anim-show"><div class="opred">
+        В JavaScript имеются следующие примитивные типы данных: number, boolean, string, undefined, null. Сразу нужно отметить, что, при работе с примитивными типами данных, например, со строковыми литералами, мы, даже не проводя явного преобразования, сможем обращаться к их методам и свойствам. Дело тут в том, что при попытке выполнения подобных операций литералы автоматически оснащаются соответствующей объектной обёрткой.
+      <br>
+       
+
+ 
+ </div> 
+ </div> 
+ </div>
+    <div class="content">
+         <div class="anim-show">
+          Чтобы объявить константную, то есть, неизменяемую переменную, используйте const вместо let.
+
+          Переменные, объявленные с помощью const, называются «константами». Их нельзя изменить. Попытка сделать это приведёт к ошибке.
+          
+          Если программист уверен, что переменная никогда не будет меняться, он может гарантировать это и наглядно донести до каждого, объявив её через const.
+          
+          Широко распространена практика использования констант в качестве псевдонимов для трудно запоминаемых значений, которые известны до начала исполнения скрипта.
+
+Названия таких констант пишутся с использованием заглавных букв и подчёркивания.
+
+Например, сделаем константы для различных цветов в «шестнадцатеричном формате»:
+<div class="imageblock">
+  <img src="imagejs/3.jpg" width="100%" alt="lklklk">
+  </div>
+
+    
+    </div> 
+    </div>
+    <div class="content">
+      <div class="anim-show">
+        При использовании ключевого слова var можно объявить переменную, и, если надо — инициализировать её неким значением. Если переменная не инициализирована, её значением является undefined. Переменные, объявленные с использованием ключевого слова var, имеют функциональную область видимости.
+        Ключевое слово let очень похоже на var, разница заключается в том, что переменные, объявленные с ключевым словом let, имеют блочную область видимости.
+        Если переменная объявлена за пределами какой-либо функции, её область видимости является глобальной.
+
+</div>
+
+ 
+ </div> 
+
+ </div>
+
+      <div class="content">
+         <div class="anim-show"><div class="opred">
+          Преимущества:<br>
+
+COLOR_ORANGE гораздо легче запомнить, чем "#FF7F00".<br>
+Гораздо легче допустить ошибку при вводе "#FF7F00", чем при вводе COLOR_ORANGE.<br>
+При чтении кода COLOR_ORANGE намного понятнее, чем #FF7F00.<br>
+Когда мы должны использовать для констант заглавные буквы, а когда называть их нормально? Давайте разберёмся и с этим.
+
+Название «константа» просто означает, что значение переменной никогда не меняется. Но есть константы, которые известны до выполнения (например, шестнадцатеричное значение для красного цвета), а есть константы, которые вычисляются во время выполнения сценария, но не изменяются после их первоначального назначения. <br>
+          
+
+    
+    </div> 
+    </div> 
+    </div>
+    <div class="content">
+         <div class="anim-show">
+          Итого<br>
+          Мы можем объявить переменные для хранения данных с помощью ключевых слов var, let или const.<br>
+
+let – это современный способ объявления.<br>
+var – это устаревший способ объявления. <br>
+Обычно мы вообще не используем его, но мы рассмотрим тонкие отличия от let в главе 
+Устаревшее ключевое слово "var" на случай, если это всё-таки вам понадобится.<br>
+const – похоже на let, но значение переменной не может изменяться.
+Переменные должны быть названы таким образом, чтобы мы могли легко понять, что у них внутри.
+    
+    
+    </div> 
+   
+    </div>
+    
+      </div>
+    
+      
+      </div>
+     
+      <div class="right"></div>
+      </div>
+                  
+    
+                <div class="Onlineblock">
+    
+    <div class="First">
+      <div class="anim-show">
+    
+    
+    
+      
+    
+       
+       <p class="ZagWidget">Тест по первой теме HTML</p> 
+    
+      
+    <!-- Тест с сайта learningapps -->
+    
+    
+    <!-- <iframe src="https://learningapps.org/watch?v=pfjr3gpm322" style="border:0px;width:100%;height:400px;margin: 0px;" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe> -->
+    
+    <!-- Окончательный вариант теста -->
+    
+            <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+            <a href="lessonjs4.php" class="buttonnns"  >Далее</a>
+    </div> 
+    </div>
+    
+    
+    
+    
+    
+    
+    </div>
+                
+             <!-- Правка бага с страницей -->
+
+
+    <script>$(document).ready(function(){$('html, body').animate({
+        scrollTop: $("#element").offset().top
+    }, 2000);
+})</script>    
+    <?php
+    //Подключение подвала
+    require_once("footer.php");
+?>
+                
+    
+                
+                
+                
+    

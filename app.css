@@ -1,0 +1,164 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+body, html
+{
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 16px;
+	font-family: cursive;
+	background: rgb(70, 69, 69);
+	color: whitesmoke;
+	border: 0px;
+}
+.anim-show{
+	/* width:300px; */
+	/* background:#176387; */
+	/* color:#fff; */
+	/* font-size:25px; */
+	/* border:3px solid #2BA2DB;
+	padding:20px; */
+	/* margin:auto;
+	margin-bottom:20px; */
+	/* text-align:center; */
+	opacity:0; /*Элемент полностью прозрачный (невидимый)*/
+	transition: 4s; /*Скорость перехода состояния элемента*/
+	animation: show 3s 1; /* Указываем название анимации, её время и количество повторов*/
+	animation-fill-mode: forwards; /* Чтобы элемент оставался в конечном состоянии анимации */
+	animation-delay: 1s; /* Задержка перед началом */
+	}
+
+
+
+.wrapper
+{
+	width: 100%;
+	height: 100%;
+}
+
+.main
+{
+	min-height: 30em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+}
+
+.quiz-frame
+{
+	border: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+
+.quiz__head
+{
+	font-size: 20pt;
+}
+
+.head__content 
+{
+	padding: 5px;
+}
+
+.quiz__body
+{
+	margin-top: 20px;
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+	width: 100%;
+	
+}
+
+.quiz__footer 
+{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+}
+
+.footer__content 
+{
+	padding: 5px;
+}
+.buttons{
+	width: 60%;
+	margin: 20px auto;
+}
+.button
+{
+	border: 0;
+	border-radius: 10px;
+	background: #6477EB;
+	color: #fff;
+	padding: 10px 25px;
+	width: 100%;
+	font-size: 15pt;
+	display: block;
+	margin: 2px auto;
+	cursor: pointer;
+}
+
+.button_wrong 
+{
+	background: #EB6465;
+}
+
+.button_correct
+{
+	background: #5EB97D;
+}
+
+.button_passive
+{
+	background: #B3B3B3;
+}
+@media (max-width: 900px) {
+
+	.quiz__head{
+		font-size: 16pt;
+}
+.quiz__body
+{
+	margin-top: 10px;
+
+}
+	.button
+	{		
+		font-size: 12pt;
+		
+	}
+	.buttons{
+		width: 90%;
+		margin: 10px auto;
+	}
+		
+  }
+  @media (max-width: 480px) {
+	.quiz__head{
+		font-size: 14pt;
+}
+.quiz__body
+{
+	margin-top: 6px;
+
+}
+	.button
+	{		
+		font-size: 11pt;
+		
+	}
+	.buttons{
+		width: 100%;
+		margin: 10px auto;
+	}
+  }
