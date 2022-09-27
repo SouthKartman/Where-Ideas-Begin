@@ -1,0 +1,7 @@
+.dialog
+{
+    background-color: white;
+    text-align: center;
+    flex: box;
+    flex-wrap: center;
+}
