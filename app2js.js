@@ -141,80 +141,40 @@ const results =
 //Массив с вопросами
 const questions = 
 [
-	new Question("Для чего нужен CSS? ", 
+	new Question("Каким тегом подключается JS? ", 
 	[
-		new Answer("Для создания сайта", 0),
-		new Answer("Для изменения внешнего вида сайта", 1),
+		new Answer("br", 0),
+		new Answer("script", 1),
+		new Answer("div", 0),
+	]),
+
+	new Question("Можно ли писать скрипт в HTML коде? ", 
+	[
+		new Answer("Нет", 0),
+		new Answer("Да", 1),
 		
 	]),
 
-	new Question("Какое свойство делает рамку вокруг элемента? ", 
+	new Question("Атрибуты type и language обязательны? ", 
 	[
-		new Answer("background", 0),
-		new Answer("Border", 1),
+		new Answer("Нет", 1),
+		new Answer("Да", 0),
 		
 	]),
 
-	new Question("За что отвечает свойство background? ", 
+	new Question("Что указывается в атрибуте src? ", 
 	[
-		new Answer("Позволяет установить характеристики фона", 1),
-		new Answer("Позволяет изменить цвет текста", 0),
+		new Answer("Путь к файлу", 1),
+		new Answer("Имя файла", 0),
+		new Answer("Расширение файла", 0),
 		
 	]),
 
-	new Question("Как обозначается универсальный селектор? ", 
+	new Question("Что указывается в атрибуте src? ", 
 	[
-		new Answer("*", 1),
-		new Answer("id", 0),
-		new Answer("class", 0),
-		
-	]),
-
-	new Question("За что отвечают свойства width и height? ", 
-	[
-		new Answer("Высота и ширина элемента", 1),
-		new Answer("Рамка вокруг элемента", 0),
-		new Answer("Цвет элемента", 0),
-		
-	]),
-
-	new Question("За что отвечают свойство color? ", 
-	[
-		new Answer("Высота и ширина элемента", 0),
-		new Answer("Рамка вокруг элемента", 0),
-		new Answer("Цвет текста", 1),
-		
-	]),
-
-	new Question("За что отвечают свойство font? ", 
-	[
-		new Answer("Шрифт текста", 1),
-		new Answer("Рамка вокруг элемента", 0),
-		new Answer("Цвет текста", 0),
-		
-	]),
-
-	new Question("За что отвечают свойство padding? ", 
-	[
-		new Answer("Внутренние отступы ", 1),
-		new Answer("Внешние отступы", 0),
-		
-		
-	]),
-
-	new Question("За что отвечают свойство margin? ", 
-	[
-		new Answer("Внутренние отступы ", 0),
-		new Answer("Внешние отступы", 1),
-		
-		
-	]),
-
-	new Question("Как обозначается селектор класса? ", 
-	[
-		new Answer("*", 0),
-		new Answer("class", 1),
-		new Answer("id", 0),
+		new Answer("Путь к файлу", 1),
+		new Answer("Имя файла", 0),
+		new Answer("Расширение файла", 0),
 		
 	])
 
