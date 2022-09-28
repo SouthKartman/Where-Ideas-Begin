@@ -141,39 +141,42 @@ const results =
 //Массив с вопросами
 const questions = 
 [
-	new Question("Какой тег отвечает за создание формы? ", 
+	new Question("... устанавливает правило стиля для разных медиатип? ", 
 	[
-		new Answer("div", 0),
-		new Answer("form", 1),
+		new Answer("@import", 0),
+		new Answer("@media", 1),
 		
 	]),
 
-	new Question("Для чего нужен атрибут action? ", 
+	new Question("Директива @debug обнаруживает ошибки и выводит значения выражения SassScript в стандартный поток вывода ошибок? ", 
 	[
-		new Answer("Задает имя формы", 0),
-		new Answer("Определяет файл на сервере который будет обрабатывать данную форму", 1),
+		new Answer("False", 0),
+		new Answer(" True", 1),
 		
 	]),
 
-	new Question("Для чего используется тег input? ", 
+	new Question("Директива ... - это набор вложенных правил, который может создать стилевой блок в корне документа? ", 
 	[
-		new Answer("Вводить и отправлять на сервер различные данные", 1),
-		new Answer("Выводить данные", 0),
-		
+		new Answer("@at-root", 1),
+		new Answer("@media", 0),
+		new Answer("@extend", 0),
+		new Answer("Ни один из вышеперечисленных", 0),
 	]),
 
-	new Question("Для создания флажков используется тег: ", 
+	new Question("Выберите директиву, которая отображает значение выражения SassScript как неисправимую ошибку.", 
 	[
-		new Answer("input type=checkbоx", 1),
-		new Answer("input type=password", 0),
-		
+		new Answer("@error", 1),
+		new Answer("@warn", 0),
+		new Answer("@at-root", 0),
+		new Answer("Ни один из вышеперечисленных", 0),
 	]),
 
-	new Question("Как задать поле для ввода э. почты? ", 
+	new Question("В директиве … задается переменная, которая содержит значение каждого элемента списка. ", 
 	[
-		new Answer("input type=number", 0),
-		new Answer("input type=email", 1),
-		
+		new Answer("@if", 0),
+		new Answer("@each", 1),
+		new Answer("@for", 0),
+		new Answer("@while", 0),
 	])
 
 ];
