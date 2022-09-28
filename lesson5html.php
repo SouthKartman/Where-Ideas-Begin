@@ -581,7 +581,7 @@ API Server-Sent Events (SSE) позволяет веб-страницам пол
 
 <!-- Окончательный вариант теста -->
 
-        <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+        <iframe src="quiz3.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
         <a href="lesson6html.php" class="buttonnns"  >Далее</a>
 </div> 
 </div>
