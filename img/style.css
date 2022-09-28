@@ -2136,14 +2136,14 @@ margin-top: 1px;
   justify-content: center;
   text-align: center;
 color: rgb(225, 225, 225);
-background: linear-gradient(45deg, #181818, #404040);
+/* background: linear-gradient(45deg, #181818, #404040); */
 border-radius: 10px;
-margin: 3rem;
-display: none;
+/* margin: 3rem; */
+/* display: none; */
 font-family: Sans-serif,'Courier New', Courier, monospace;
 padding-bottom: 1rem;
 }
 #wrap
 {
-  background-color: ;
+  background-color:black ;
 }
