@@ -500,7 +500,7 @@ JavaScript включает стандартную библиотеку объе
     
     <!-- Окончательный вариант теста -->
     
-            <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+            <iframe src="quiz1js.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
             <a href="lessonjs2.php" class="buttonnns"  >Далее</a>
     </div> 
     </div>

@@ -141,86 +141,43 @@ const results =
 //Массив с вопросами
 const questions = 
 [
-	new Question("HTML – это  язык программирования? ", 
+	new Question("JavaScript – это  язык программирования? ", 
+	[
+		new Answer("Да", 1),
+		new Answer("Нет", 0),
+		
+	]),
+
+	new Question("JS используется только в браузерах? ", 
 	[
 		new Answer("Да", 0),
 		new Answer("Нет", 1),
 		
 	]),
 
-	new Question("Видны ли комментарии пользователю? ", 
+	new Question("Может ли JS добавлять новый HTML-код на страницу, изменять существующее содержимое, модифицировать стили? ", 
 	[
-		new Answer("Да", 0),
+		new Answer("Да", 1),
+		new Answer("Нет", 0),
+		
+	]),
+
+	new Question("Может ли JS запоминать данные на стороне клиента? ", 
+	[
+		new Answer("Да", 1),
+		new Answer("Нет", 0),
+		
+		
+	]),
+
+	new Question("Может ли JS включить камеру или микрофон в браузере без разрешения? ", 
+	[
 		new Answer("Нет", 1),
-		
-	]),
-
-	new Question("Что такое тег? ", 
-	[
-		new Answer("Команды языка HTML", 1),
-		new Answer("Функции", 0),
-		
-	]),
-
-	new Question("Укажите одиночный тег? ", 
-	[
-		new Answer("br", 1),
-		new Answer("p", 0),
-		new Answer("div", 0),
-		
-	]),
-
-	new Question("Что означает тег head? ", 
-	[
-		new Answer("Заголовок html документа", 1),
-		new Answer("Переход на новую строку", 0),
-		new Answer("Полужирный текст", 0),
-		
-	]),
-
-	new Question("Для чего используют тег h1? ", 
-	[
-		new Answer("Переход на новую строку", 0),
-		new Answer("Для заголовка", 1),
-		new Answer("Курсив", 0),
-		
-	]),
-
-	new Question("Для чего используют тег p? ", 
-	[
-		new Answer("Переход на новую строку", 0),
-		new Answer("Абзац", 1),
-		new Answer("Курсив", 0),
-		
-	]),
-
-	new Question("Для чего используют тег br? ", 
-	[
-		new Answer("Курсив", 0),
-		new Answer("Переход на новую строку", 1),
-		new Answer("Полужирный текст", 0),
-		
-	]),
-
-    new Question("Какой тег используется для создания блока? ", 
-	[
-		new Answer("div", 1),
-		new Answer("p", 0),
-		new Answer("br", 0),
-		
-	]),
-
-	new Question("Укажите парные теги? ", 
-	[
-		new Answer("br", 0),
-		new Answer("p", 1),
-		new Answer("hr", 0),
+		new Answer("Да", 0),
 		
 	])
 
 	
-
-
 ];
 
 //Сам тест
