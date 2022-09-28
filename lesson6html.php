@@ -573,7 +573,7 @@ Sassy CSS в любом своём проявлении является «ра�
   
 
    
-   <p class="ZagWidget">Тест по первой теме HTML</p> 
+   <p class="ZagWidget">Тест по SCSS</p> 
 
   
 <!-- Тест с сайта learningapps -->
@@ -583,7 +583,7 @@ Sassy CSS в любом своём проявлении является «ра�
 
 <!-- Окончательный вариант теста -->
 
-        <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+        <iframe src="quiz4.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
         <a href="lesson5html.php" class="buttonnns"  >Далее</a>
 </div> 
 </div>
