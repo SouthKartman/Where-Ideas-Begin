@@ -476,7 +476,70 @@ function get_cookie (cookie_name) {
  
   <div class="right"></div>
   </div>
-              
+       
+  
+  <div class="readblocktext">
+    <div class="nameredacktor">
+    <div class="leftname"></div>
+            <div class="textredactor">
+             <p> Практика</p>
+            </div>
+            <div class="rightname"></div>
+    </div>
+    
+  </div>
+
+  <div class="readblocktext">
+
+<div class="left"></div>
+<div class="read">
+
+<div class="wrapper" id="wrap">
+<div class="nameredacktor">
+      <div class="leftname"></div>
+          <div class="textredactor">
+           <p> Задания по теме:Знакомство с HTML</p>
+          </div>
+      <div class="rightname"></div>
+</div>
+
+
+<div class="content1">
+   <div class="anim-show">
+   <iframe src="HTMLPRACTIC/PRACTICA2lesson.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+
+</div>
+
+
+
+
+
+
+</div>
+
+
+
+</div>
+
+</div>
+
+<div class="right"></div>
+
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+  
 
             <div class="Onlineblock">
 
