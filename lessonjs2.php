@@ -482,7 +482,7 @@ script src="/path/to/script.js" script<br>
     
     <!-- Окончательный вариант теста -->
     
-            <iframe src="quiz1js.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+            <iframe src="quiz2js.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
             <a href="lessonjs3.php" class="buttonnns"  >Далее</a>
     </div> 
     </div>
