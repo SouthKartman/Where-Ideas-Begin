@@ -532,7 +532,7 @@ const – похоже на let, но значение переменной не
     
     <!-- Окончательный вариант теста -->
     
-            <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+            <iframe src="quiz3js.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
             <a href="lessonjs4.php" class="buttonnns"  >Далее</a>
     </div> 
     </div>
