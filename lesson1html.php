@@ -463,7 +463,7 @@ sub.../sub  Подстрочный текст;  br  Переход на нову
 
   </div>
 
-  <div class="readblocktext">
+  <!-- <div class="readblocktext">
     <div class="nameredacktor">
     <div class="leftname"></div>
             <div class="textredactor">
@@ -491,7 +491,7 @@ sub.../sub  Подстрочный текст;  br  Переход на нову
 
 <div class="content1">
    <div class="anim-show">
-   <iframe src="PRACTICA.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+   <iframe src="HTMLPRACTIC/PRACTICA1lesson.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
 
 </div>
 
@@ -500,26 +500,26 @@ sub.../sub  Подстрочный текст;  br  Переход на нову
 
 
 
-</div>
+</div> -->
 <!-- <a href="#" class="btn-more" id="link_Id" >Далее</a> -->
 
 
-</div>
+<!-- </div>
 
 </div>
 
-<div class="right"></div>
+<div class="right"></div> -->
 
 
 <!-- <div class="wrapper"></div> -->
 <!--  -->
 
-
+<!-- 
 
 </div>
 
 
-
+ -->
 
 
 
