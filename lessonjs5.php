@@ -486,7 +486,7 @@
     
       <div class="content1">
                <div class="anim-show">
-              <iframe src="JSPRACTIC/PRACTICA2lesson.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+              <iframe src="JSPRACTIC/PRACTICA1lesson.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
 
       </div>
       

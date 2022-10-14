@@ -471,13 +471,17 @@
       </div>
                   
     
-                <!-- <div class="Onlineblock"> -->
+                 <div class="Onlineblock"> 
     
-    <!-- <div class="First"> -->
-      <!-- <div class="anim-show"> -->
+     <div class="First">
+       <div class="anim-show"> 
     
     
-    
+       <div class="content1">
+               <div class="anim-show">
+              <iframe src="JSPRACTIC/PRACTICA2lesson.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+
+      </div>
       
     
        
@@ -494,14 +498,9 @@
             <!-- <iframe src="quiz1.html" width="100%" height="500rem" class="quiz-frame" ></iframe> -->
             <!-- <a href="lesson2html.php" class="buttonnns"  >Далее</a> -->
     <!-- </div>  -->
-    <!-- </div> -->
+    </div> 
     
-    
-    
-    
-    
-    
-    <!-- </div> -->
+    </div> 
                 
     
                 
