@@ -434,7 +434,7 @@
       
     
        
-       <p class="ZagWidget">Тест по первой теме HTML</p> 
+       <p class="ZagWidget">Тест по JS</p> 
     
       
     <!-- Тест с сайта learningapps -->
@@ -448,7 +448,11 @@
             <a href="lessonjs5.php" class="buttonnns"  >Далее</a>
     </div> 
     </div>
-    
+    <div class="content1">
+               <div class="anim-show">
+              <iframe src="JSPRACTIC/PRACTICA3lesson.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
+
+      </div>
     
     
     
