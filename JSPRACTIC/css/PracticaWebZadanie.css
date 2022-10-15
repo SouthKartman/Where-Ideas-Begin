@@ -70,3 +70,9 @@ body{
     height: auto;
     z-index: -9999;
   }
+  .contentpractic
+  {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 1rem;
+  }
