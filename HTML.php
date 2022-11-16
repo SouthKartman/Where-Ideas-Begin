@@ -57,35 +57,35 @@
 			<div class="swiper-slide slider__item">
 				<div class="slider__img" data-swiper-parallax="30%" >
 					<a href="lesson2html.php"> 
-						<img src="images/1.jpg" alt="">
+						<img src="img/1proj.jpg" alt="">
 						</a>
 				</div>
 			</div>
 			<div class="swiper-slide slider__item">
 				<div class="slider__img" data-swiper-parallax="20%" >
 					<a href="lesson3html.php"> 
-						<img src="images/1.jpg" alt="">
+						<img src="img/1proj.jpg" alt="">
 						</a>
 				</div>
 			</div>
 			<div class="swiper-slide slider__item">
 				<div class="slider__img" data-swiper-parallax="30%" >
 					<a href="lesson4html.php"> 
-						<img src="images/1.jpg" alt="">
+						<img src="img/1proj.jpg" alt="">
 						</a>
 				</div>
 			</div>
 			<div class="swiper-slide slider__item">
 				<div class="slider__img" data-swiper-parallax="20%" >
 					<a href="images/images for LP/HTML/lesson5and6/Strochnye_i_blochnye_elementy_Blochnaya_model2.pptx"> 
-						<img src="images/1.jpg" alt="">
+						<img src="img/1proj.jpg" alt="">
 						</a>
 				</div>
 			</div>
 			<div class="swiper-slide slider__item">
 				<div class="slider__img" data-swiper-parallax="20%" >
 					<a href="images/images for LP/HTML/lesson5and6/FlexBox.pptx"> 
-						<img src="images/1.jpg" alt="">
+						<img src="img/1proj.jpg" alt="">
 						</a>
 				</div>
 			</div>

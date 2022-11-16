@@ -20,7 +20,7 @@
     $mysqli->set_charset('utf8');
  
     //Для удобства, добавим здесь переменную, которая будет содержать адрес (URL) нашего сайта
-    $address_site = "whereideasbegin/index.php";
+    $address_site = "";
 ?>
 
 <!-- Обратите внимание на переменную $address_site, здесь я указал адрес 
