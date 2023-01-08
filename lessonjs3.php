@@ -537,11 +537,7 @@ const – похоже на let, но значение переменной не
     </div> 
     </div>
     
-    <div class="content1">
-               <div class="anim-show">
-              <iframe src="JSPRACTIC/PRACTICA4lesson.html" width="100%" height="500rem" class="quiz-frame" ></iframe>
-
-      </div>
+    
     
     
     

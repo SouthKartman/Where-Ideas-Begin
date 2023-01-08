@@ -266,7 +266,7 @@
             <div class="mainredaktor">
             <section class="about">
         <video class="video"  loop="loop" autoplay="" muted="">
-            <source src="media/Untitled.mp4" type="video/mp4" />
+        <source src="media/1.mp4" type="video/mp4" />
             <!-- <source src="https://denis-creative.com/wp-content/uploads/2018/01/video.ogv" type="video/ogv" />
             <source src="https://denis-creative.com/wp-content/uploads/2018/01/video.webm" type="video/webm" /> -->
           </video>
@@ -571,7 +571,7 @@ API Server-Sent Events (SSE) позволяет веб-страницам пол
   
 
    
-   <p class="ZagWidget">Тест по первой теме HTML</p> 
+   <p class="ZagWidget">Тест по API</p> 
 
   
 <!-- Тест с сайта learningapps -->

@@ -101,7 +101,7 @@
                 </div>
                 <div class="eone">
                   <div class="anim-show">
-                    <a target="_blank" href="https://www.online-python.com/"><img class="c" src="img/1200px-Python_icon_(black_and_white).svg.png" target="_blank" width="100%" height="100%" alt=""></a>
+                    <a target="_blank" href="https://www.online-python.com/"><img class="c" src="img/111.jpg" target="_blank" width="100%" height="100%" alt=""></a>
                   </div>
                 </div>
               </div>

@@ -60,7 +60,7 @@
 
         <div class="input-form">
         <td colspan="2">
-             <input type="submit" name="btn_submit_register" value="Зарегистрироватся!">
+             <input type="submit" name="btn_submit_register" value="Зарегистрироваться!">
         </td>   
 		</div>
             </form>
