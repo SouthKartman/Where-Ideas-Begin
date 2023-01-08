@@ -43,9 +43,6 @@ body, html {
 	cursor: pointer;
 	transition: transform var(--transition), box-shadow var(--transition);
 }
-
-
-
 .slider__img {
 	width: 300%;
 	height: 100%;
@@ -217,25 +214,7 @@ body, html {
   .menu__item:hover {
 	background-color: #CFD8DC;
   }
-  @media (max-width: 900px) {
 
-	.slider__item
-	{
-		width: 500px;
-    }
-	.slider__img
-	{
-		width: 500px;
-    }
-	.slider
-	{
-		width: 500px;
-    }
-	.slider_bg
-	{
-		width: 500px;
-    }
-}
 
 
 
