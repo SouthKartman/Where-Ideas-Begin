@@ -1,5 +1,10 @@
 # Where-Ideas-Begin
-Этот репозиторий создан для сайта WhereIdeasBegin - проект студента начинающего студента.![eVppX648CYc](https://user-images.githubusercontent.com/93534577/211210475-6e161e47-9018-4b50-9f9f-5cc343a0fa33.jpg)
+Этот репозиторий создан для сайта WhereIdeasBegin - проект студента начинающего студента.
+
+
+
+
+![eVppX648CYc](https://user-images.githubusercontent.com/93534577/211210475-6e161e47-9018-4b50-9f9f-5cc343a0fa33.jpg)
 ![aHJjsLFBIrI](https://user-images.githubusercontent.com/93534577/211210480-bd3cae67-421b-4189-97e2-b302ee0db550.jpg)
 ![1iJkATXEya0](https://user-images.githubusercontent.com/93534577/211210482-e6d58300-77ab-4d76-b033-a8268adcd677.jpg)
 ![UtxhwMULR6s](https://user-images.githubusercontent.com/93534577/211210484-9dca4415-9868-4ac8-9dfc-68f659d4aecb.jpg)
