@@ -1,13 +1,12 @@
 # Where-Ideas-Begin
 
-#Where-Ideas-Begin
-Where-Ideas-Begin - Course Service Template. <br>
+Where-Ideas-Begin - Course Service Template. <br><br>
 Welcome to Where-Ideas-Begin - your personalized template for creating an online course service! This web template is developed using native PHP and JavaScript, as well as popular HTML and CSS libraries and preprocessors. Create, manage and deliver courses in your own unique style.
 
 ## How to start
 Cloning the Repository:
 
-bash ```git clone https://github.com/username/CourseHub.git](https://github.com/SouthKartman/Where-Ideas-Begin.git```
+bash ```git clone https://github.com/SouthKartman/Where-Ideas-Begin.git```
 
 
 ### Database Setup:
@@ -40,13 +39,13 @@ Web browser,PHP,MySQL
 
 # Where-Ideas-Begin
 
-Where-Ideas-Begin - Шаблон Сервиса Курсов. <br>
+Where-Ideas-Begin - Шаблон Сервиса Курсов. <br><br>
 Приветствуем вас в Where-Ideas-Begin - вашем персональном шаблоне для создания онлайн-сервиса курсов! Этот веб-шаблон разработан с использованием нативного PHP и JavaScript, а также популярных библиотек и препроцессоров HTML и CSS. Создавайте, управляйте и предоставляйте курсы в своем уникальном стиле.
 
 ## Как Начать
 Клонирование Репозитория:
 
-bash ```git clone https://github.com/username/CourseHub.git](https://github.com/SouthKartman/Where-Ideas-Begin.git```
+bash ```git clone https://github.com/SouthKartman/Where-Ideas-Begin.git```
 
 ### Настройка Базы Данных:
 
