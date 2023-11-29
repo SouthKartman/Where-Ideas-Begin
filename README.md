@@ -1,4 +1,45 @@
 # Where-Ideas-Begin
+
+#Where-Ideas-Begin
+Where-Ideas-Begin - Course Service Template. <br>
+Welcome to Where-Ideas-Begin - your personalized template for creating an online course service! This web template is developed using native PHP and JavaScript, as well as popular HTML and CSS libraries and preprocessors. Create, manage and deliver courses in your own unique style.
+
+## How to start
+Cloning the Repository:
+
+bash ```git clone https://github.com/username/CourseHub.git```
+
+### Replace username with your GitHub account.
+
+### Database Setup:
+
+Import the mysql file.
+
+## Setting Configuration:
+
+Open the config.php file and make the necessary settings (database name, user and password).
+
+### Start Local Server:
+
+### Use PHP's built-in server or configure your own web server.
+bash
+
+```php -S localhost:8000```
+
+Open the Project in the Browser:
+
+Go to the address in your web browser.
+```http://localhost:8000```
+
+
+## Requirements
+Web browser,PHP,MySQL
+
+### This repository was created for the site WhereIdeasBegin - a student project of a novice programmer.
+
+<BR><BR><BR>
+
+
 Where-Ideas-Begin - Шаблон Сервиса Курсов. <br>
 Приветствуем вас в Where-Ideas-Begin - вашем персональном шаблоне для создания онлайн-сервиса курсов! Этот веб-шаблон разработан с использованием нативного PHP и JavaScript, а также популярных библиотек и препроцессоров HTML и CSS. Создавайте, управляйте и предоставляйте курсы в своем уникальном стиле.
 
