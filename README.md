@@ -7,9 +7,8 @@ Welcome to Where-Ideas-Begin - your personalized template for creating an online
 ## How to start
 Cloning the Repository:
 
-bash ```git clone https://github.com/username/CourseHub.git```
+bash ```git clone https://github.com/username/CourseHub.git](https://github.com/SouthKartman/Where-Ideas-Begin.git```
 
-### Replace username with your GitHub account.
 
 ### Database Setup:
 
@@ -47,9 +46,7 @@ Where-Ideas-Begin - Шаблон Сервиса Курсов. <br>
 ## Как Начать
 Клонирование Репозитория:
 
-bash ```git clone https://github.com/username/CourseHub.git```
-
-### Замените username на свой GitHub-аккаунт.
+bash ```git clone https://github.com/username/CourseHub.git](https://github.com/SouthKartman/Where-Ideas-Begin.git```
 
 ### Настройка Базы Данных:
 
