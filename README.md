@@ -1,7 +1,7 @@
 # Where-Ideas-Begin
 Этот репозиторий создан для сайта WhereIdeasBegin - проект студента начинающего программиста.
 
-
+<br><br><br>
 
 ![Njdc4LYptAc](https://user-images.githubusercontent.com/93534577/211210497-ac459ae0-c4d9-419d-8388-0de7cd7014e9.jpg)
 ![eVppX648CYc](https://user-images.githubusercontent.com/93534577/211210475-6e161e47-9018-4b50-9f9f-5cc343a0fa33.jpg)
